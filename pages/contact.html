@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | FYNTRA LTD</title>
+    <meta
+      name="description"
+      content="Contact FYNTRA LTD for software solutions, web development, mobile apps, UI/UX design, and digital business support."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: "#0EA5E9",
+              brandDeep: "#0F4C81",
+              teal: "#0F766E",
+              ink: "#10243E",
+              cloud: "#F7FBFF",
+              mist: "#EEF6FD",
+              peach: "#FFEDDC"
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/main.js" defer></script>
+  </head>
+  <body data-base=".." data-page="contact" class="text-ink antialiased">
+    <div class="page-shell">
+      <div data-component="navbar"></div>
+
+      <main class="pt-32">
+        <section class="hero-stage">
+          <div class="hero-blob left-[8%] top-24 h-32 w-32 bg-sky-100"></div>
+          <div class="hero-blob hero-blob-alt right-[9%] top-30 h-24 w-24 bg-amber-100"></div>
+
+          <div class="hero-grid mx-auto grid max-w-7xl gap-12 px-6 pb-24 pt-12 lg:grid-cols-[0.95fr_1.05fr] lg:px-8 lg:pb-28">
+            <div class="reveal space-y-6">
+              <span class="hero-badge">Contact</span>
+              <h1 class="headline-large font-extrabold">Let's discuss the right digital solution for your business.</h1>
+              <p class="lead-copy max-w-2xl">
+                Reach out to FYNTRA LTD for web development, mobile products, UI/UX design, and custom software support shaped around real business needs.
+              </p>
+              <div class="flex flex-wrap gap-3">
+                <span class="hero-chip">Fast response</span>
+                <span class="hero-chip">Clear communication</span>
+                <span class="hero-chip">Project guidance</span>
+              </div>
+            </div>
+
+            <div class="reveal">
+              <div class="hero-mist p-8 md:p-10">
+                <div class="relative space-y-6">
+                  <p class="kicker">Direct Contact</p>
+                  <div class="hero-legal-grid">
+                    <div class="hero-legal-item">
+                      <strong>Address</strong>
+                      <span>321323 HIGH ROAD CHADWELI ESSEX RM6 6AX</span>
+                    </div>
+                    <div class="hero-legal-item">
+                      <strong>Phone</strong>
+                      <span>+923122468401</span>
+                    </div>
+                    <div class="hero-legal-item">
+                      <strong>Email</strong>
+                      <span>fyntraltd@gmail.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="relative">
+          <div class="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-[0.86fr_1.14fr] lg:px-8">
+            <div class="reveal space-y-6">
+              <div>
+                <p class="kicker">Response style</p>
+                <p class="mt-3 text-2xl font-semibold text-slate-900">Clear communication, practical thinking, and a calm professional tone from the start.</p>
+              </div>
+              <div class="flow-divider"></div>
+              <div>
+                <p class="kicker">Project focus</p>
+                <p class="mt-3 text-2xl font-semibold text-slate-900">Best suited for businesses seeking a more polished presence or stronger product delivery support.</p>
+              </div>
+            </div>
+
+            <div id="contact-form" class="reveal fluid-shell-alt p-8 md:p-10">
+              <div class="space-y-4">
+                <p class="kicker">Send a Message</p>
+                <h2 class="text-3xl font-bold text-slate-900">Tell us about your project.</h2>
+              </div>
+              <form data-contact-form class="mt-8 space-y-5">
+                <div>
+                  <label for="name" class="mb-2 block text-sm font-medium text-slate-700">Name</label>
+                  <input id="name" type="text" required class="field" placeholder="Your name" />
+                </div>
+                <div>
+                  <label for="email" class="mb-2 block text-sm font-medium text-slate-700">Email</label>
+                  <input id="email" type="email" required class="field" placeholder="you@example.com" />
+                </div>
+                <div>
+                  <label for="message" class="mb-2 block text-sm font-medium text-slate-700">Message</label>
+                  <textarea id="message" rows="6" required class="field" placeholder="Tell us what you need"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+                <p data-form-message class="form-message opacity-0 translate-y-2 text-sm font-medium"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-wave mt-6">
+          <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+            <div class="reveal overflow-hidden rounded-[3rem] border border-slate-200/70 bg-white shadow-xl shadow-slate-900/5">
+              <iframe
+                title="FYNTRA LTD location"
+                src="https://www.google.com/maps?q=321323%20HIGH%20ROAD%20CHADWELI%20ESSEX%20RM6%206AX&output=embed"
+                class="h-[420px] w-full border-0"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div data-component="footer"></div>
+    </div>
+  </body>
+</html>
